@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+
+}
+.kolla{
+    display: flex;
+    justify-content: space-between;
+}
