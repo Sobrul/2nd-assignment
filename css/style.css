@@ -1,8 +1,40 @@
 *{
     margin: 0;
+    font-family: 'Work Sans', sans-serif;
 
 }
-.kolla{
+.nav{
     display: flex;
     justify-content: space-between;
+    
+}
+.nav-title{
+    text-align: center;
+    padding-left: 228px;
+    padding-top: 30px;
+    font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #131313;
+}
+.manu{
+    display: flex;
+    justify-content:space-between ;
+    margin-right: 200px;
+    
+}
+.manu li{
+    list-style: none;
+    text-align: center;
+    padding-right: 50px;
+    padding-top: 50px;
+    font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+
+    
+}
+.manu li a{
+    text-decoration: none;
+    color: #424242;
 }
