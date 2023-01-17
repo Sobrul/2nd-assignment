@@ -1,7 +1,7 @@
 * {
     margin: 0;
     font-family: 'Work Sans', sans-serif;
-    
+
 
 }
 
@@ -70,7 +70,6 @@
 
 .brand button {
     margin-top: 50px;
-    background-color: ;
     width: 180px;
     height: 64px;
     left: 870px;
@@ -82,17 +81,59 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 23px;
-    
+
 }
-.cover{
+
+.cover {
     margin-top: 50px;
     margin-left: 240px;
     margin-right: 240px;
 }
-.cover img{
-   width: 100%;
+
+.cover img {
+    width: 100%;
 }
-.quick-list{
+
+.quick-list {
+    margin: 50px 240px 0 240px;
     display: flex;
-    
+
+}
+
+.quick-gird {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.quick-text {
+    padding-left: 73px;
+    padding-top: 273px;
+
+}
+
+.quick-text h3 {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.quick-text p {
+    padding-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.quick-text button {
+    margin-top: 32px;
+    background-color: chocolate;
+    width: 180px;
+    height: 64px;
+    left: 1082px;
+    top: 1849px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border-color: chocolate;
 }
