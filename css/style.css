@@ -282,3 +282,29 @@
     line-height: 23px;
     color: #727272;
 }
+.spon{
+    margin-left: 240px;
+    text-align: center;
+}
+.spon-text{
+
+}
+.spon-text h3{
+    font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+color: #131313;
+margin-bottom: 24px;
+}
+.spon-text p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #727272;
+padding-bottom: 50px;
+}
+.spon-img{
+    display: flex;
+    gap: 155px;
+    
+}
