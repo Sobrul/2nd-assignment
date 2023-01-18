@@ -308,3 +308,19 @@ padding-bottom: 50px;
     gap: 155px;
     
 }
+.foot{
+    margin: 130px 240px 216px 240px;
+    width: 1440px;
+height: 100px;
+left: 240px;
+top: 4444px;
+text-align: center;
+background: #FFF4E7;
+}
+.foot p{
+    padding-top: 39px;
+    font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+color: #424242;
+}
