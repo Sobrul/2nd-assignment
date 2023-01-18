@@ -5,6 +5,15 @@
 
 }
 
+.landing {
+    width: 1920px;
+    height: 1322px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(255, 144, 14, 0.1);
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -46,6 +55,7 @@
 
 }
 
+/* baner section */
 .brand {
     text-align: center;
     margin-top: 100px;
@@ -55,7 +65,7 @@
 }
 
 .brand h1 {
-    margin-left: 240px;
+    margin-left: 260px;
     width: 850px;
     font-weight: 700;
     font-size: 64px;
@@ -65,19 +75,25 @@
 }
 
 .brand p {
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-left: 250px;
+    width: 868px;
+    height: 52px;
+    left: 526px;
+    top: 379px;
 }
 
 .brand button {
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-left: 100px;
     width: 180px;
     height: 64px;
     left: 870px;
     top: 463px;
-    background-color: chocolate;
+    background: #FF900E;
     color: #FFFFFF;
     border-radius: 8px;
-    border-color: chocolate;
+    border-color: #FF900E;
     font-weight: 600;
     font-size: 20px;
     line-height: 23px;
@@ -94,6 +110,7 @@
     width: 100%;
 }
 
+/* feature section */
 .quick-list {
     margin: 50px 240px 0 240px;
     display: flex;
@@ -116,6 +133,7 @@
     font-weight: 500;
     font-size: 45px;
     line-height: 53px;
+    color: #727272;
 }
 
 .quick-text p {
@@ -123,19 +141,23 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+    width: 537px;
+    height: 78px;
+    left: 1082px;
+    top: 1739px;
     color: #727272;
 }
 
 .quick-text button {
     margin-top: 32px;
-    background-color: chocolate;
+    background-color: #FF900E;
     width: 180px;
     height: 64px;
     left: 1082px;
     top: 1849px;
     color: #FFFFFF;
     border-radius: 8px;
-    border-color: chocolate;
+    border-color: #FF900E;
 }
 
 .feature {
@@ -222,16 +244,17 @@
     width: 100%;
 }
 
+/* some facts section */
 .fact {
     margin-bottom: 130px;
     margin-left: 240px;
 }
 
 .fact-text h3 {
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 53px;
-    color: #131313;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
 }
 
 .fact-text p {
@@ -252,7 +275,7 @@
     gap: 125px;
     text-align: center;
     margin-left: 60px;
-  
+
 }
 
 .fact-cont {
@@ -282,45 +305,53 @@
     line-height: 23px;
     color: #727272;
 }
-.spon{
+
+/* our sponspors sectoin */
+.spon {
     margin-left: 240px;
     text-align: center;
 }
-.spon-text{
 
-}
-.spon-text h3{
+.spon-text {}
+
+.spon-text h3 {
     font-weight: 700;
-font-size: 45px;
-line-height: 53px;
-color: #131313;
-margin-bottom: 24px;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 24px;
 }
-.spon-text p{
+
+.spon-text p {
     font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-color: #727272;
-padding-bottom: 50px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding-bottom: 50px;
 }
-.spon-img{
+
+.spon-img {
     display: flex;
     gap: 155px;
-    
+    filter: grayscale(100%);
+
 }
-.foot{
+
+/* footer section */
+.foot {
     margin: 130px 240px 216px 240px;
     width: 1440px;
-height: 100px;
-left: 240px;
-top: 4444px;
-text-align: center;
-background: #FFF4E7;
+    height: 100px;
+    left: 240px;
+    top: 4444px;
+    text-align: center;
+    background: #FFF4E7;
 }
-.foot p{
+
+.foot p {
     padding-top: 39px;
     font-weight: 400;
-font-size: 20px;
-line-height: 23px;
-color: #424242;
+    font-size: 20px;
+    line-height: 23px;
+    color: #424242;
 }
