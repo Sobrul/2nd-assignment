@@ -93,7 +93,7 @@
     background: #FF900E;
     color: #FFFFFF;
     border-radius: 8px;
-    border-color: #FF900E;
+    border: none;
     font-weight: 600;
     font-size: 20px;
     line-height: 23px;
@@ -157,7 +157,7 @@
     top: 1849px;
     color: #FFFFFF;
     border-radius: 8px;
-    border-color: #FF900E;
+    border: none;
 }
 
 .feature {
@@ -239,17 +239,19 @@
     left: 270px;
     top: 3158px;
 }
+
 /* 
 .feature-image img {
     width: 100%;
 } */
-.feature-image  {
+.feature-image {
     background-image: url(../images/architect.png);
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
 }
-.feature-image button{
+
+.feature-image button {
     width: 342px;
     height: 200px;
     left: 880px;
@@ -260,19 +262,21 @@
     position: absolute;
 
 }
-.feature-image button h3{
+
+.feature-image button h3 {
     font-weight: 700;
-font-size: 65px;
-line-height: 70px;
-color: #FFFFFF;
+    font-size: 65px;
+    line-height: 70px;
+    color: #FFFFFF;
 
 
 }
-.feature-image button h4{
+
+.feature-image button h4 {
     font-weight: 500;
     font-size: 25px;
     line-height: 40px;
-color: #FFFFFF;
+    color: #FFFFFF;
 
 }
 
@@ -284,9 +288,9 @@ color: #FFFFFF;
 
 .fact-text h3 {
     font-weight: 700;
-font-size: 45px;
-line-height: 53px;
-color: #131313;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
 }
 
 .fact-text p {
